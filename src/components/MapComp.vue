@@ -19,10 +19,12 @@ export default {
       const vector = new VectorLayer({
         source: source,
       });
+
       // Create title layer
       const raster = new TileLayer({
         source: new OSM(),
       });
+
       // Create map with 2 layers
       new Map({
         controls: defaultControls().extend([
