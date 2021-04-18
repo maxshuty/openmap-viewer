@@ -1,5 +1,7 @@
 # OpenMap Viewer
 
+This is an [OpenStreetMap](https://www.openstreetmap.org/copyright) implementation built with VueJS to showcase how easy it is to get up and running with VueJS, OpenLayers, and OpenStreetMap.
+
 ## Project setup
 
 ```
