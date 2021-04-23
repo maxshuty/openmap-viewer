@@ -20,12 +20,12 @@ export default {
         source: source,
       });
 
-      // Create title layer
+      // Creating the title layer
       const raster = new TileLayer({
         source: new OSM(),
       });
 
-      // Create map with 2 layers
+      // Creating a map with 2 layers
       new Map({
         controls: defaultControls().extend([
           new ScaleLine({
